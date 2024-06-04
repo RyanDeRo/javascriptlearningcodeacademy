@@ -1,0 +1,23 @@
+
+
+function strikeCounter(strike)
+{
+  switch (strike) {
+  case 'Hook':
+    return 'Block, rock, and roll'
+    break;
+  case 'Jab':
+    return 'Parry, front leg kick'
+    break;
+  case 'Teep':
+    return 'Catch, pull, flying knee'
+    break;
+  default:
+   return 'Maintain stance and good gaurd'
+  }
+}
+
+let strike = 'Jab'
+counter = strikeCounter(strike)
+console.log('The strike is a ' + strike);
+console.log('You can counter with ' + counter);
